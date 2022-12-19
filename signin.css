@@ -1,0 +1,84 @@
+@font-face {
+    font-family:FiraGO-Regular ;
+    src: url(IT/0f11e09a625880a8\ \(1\).pdf);
+}
+body{
+    background-color:#FFFFFF;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+    background-color: #FFFFFF;
+    width: 718px;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    margin-top: 172px;
+    margin-left 281px;
+    padding: 40px 51px 63px 51px;
+    height: 419px;
+
+}
+ h1{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+ }
+.input_item label{
+    display: block;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    
+    margin-bottom: 5px;
+
+}
+.input_item input{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width:100%;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 18px 18px 18px 18px;
+}
+.lost_password{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0653AD;
+
+}
+.card_footer{
+    display: flex;
+  align-items: center;
+  justify-content:space-between;
+    
+}
+.footer_details span {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+
+   color: #000000;
+}
+.btn{
+    background: #FFDD04;
+    border-radius: 10px;
+    width: 205px;
+    height: 47px;
+}
